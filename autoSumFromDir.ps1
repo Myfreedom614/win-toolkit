@@ -2,7 +2,7 @@ param (
     [string]$dirPath = $(Get-Location)
 )
 
-$pdfFiles = Get-ChildItem -Path $directoryPath -Filter "*.pdf"
+$pdfFiles = Get-ChildItem -Path $dirPath -Filter "*.pdf"
 
 $totalSum = 0
 
